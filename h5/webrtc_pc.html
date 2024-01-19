@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+
+<html>
+<head>
+
+    <meta charset="utf-8">
+    <title>WebRTC</title>
+
+    <style>
+        video {
+            background: #222;
+            margin: 0 0 20px 0;
+            width: 40%;
+            height: calc(40vh);
+        }
+
+        button {
+            width: 30%;
+            height: calc(7vh);
+        }
+    </style>
+</head>
+
+<body>
+
+    <div id="container">
+        <video id="local" autoplay playsinline></video>
+        <video id="remote" autoplay playsinline></video>
+        <button onClick="start()">start test</button>
+    </div>
+
+    <script type="text/javascript">
+        var ver = (new Date()).getTime();
+        document.write('<script type="text/javascript" src="./unit.js?ver=' + ver + '"><' + '/script>');
+        document.write('<script type="text/javascript" src="./signaling.js?ver=' + ver + '"><' + '/script>');
+        document.write('<script type="text/javascript" src="./webrtc.js?ver=' + ver + '"><' + '/script>');
+    </script>
+
+</body>
+</html>
