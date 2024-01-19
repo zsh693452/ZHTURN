@@ -23,9 +23,15 @@ answer https://www.zhaosonghan.com/h5/webrtc_pc.html?&name=abcdef&role=2
 
 ### mobile side
 
+***you can scand QRCode!***
+
 offer https://www.zhaosonghan.com/h5/webrtc_mobile.html?&name=123456&remote=abcdef&role=1
 
+![image](https://github.com/zsh693452/ZHTURN/blob/main/image/offer.png) 
+
 answer https://www.zhaosonghan.com/h5/webrtc_mobile.html?&name=abcdef&role=2
+
+![image](https://github.com/zsh693452/ZHTURN/blob/main/image/answer.png)
 
 ## Usage
 
